@@ -9,4 +9,7 @@ body {
   background-color: #ffc107;
   margin: 10px;
   color: #00695C;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
 }
