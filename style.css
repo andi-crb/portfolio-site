@@ -3,3 +3,8 @@ body {
   padding-top: 15%;
   color: white;
 }
+
+.portfolio-item {
+  background-color: #ffc;
+  margin: 10px;
+}
