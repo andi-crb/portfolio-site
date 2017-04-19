@@ -2,9 +2,11 @@ body {
   background-color: #00695C;
   padding-top: 15%;
   color: white;
+  text-align: center;
 }
 
 .portfolio-item {
   background-color: #ffc107;
   margin: 10px;
+  color: #00695C;
 }
