@@ -13,3 +13,10 @@ body {
   width: 150px;
   height: 150px;
 }
+
+.screen-border {
+  background-color: white;
+  color: #00695C;
+  border: 10px solid #ffc107;
+}
+  
