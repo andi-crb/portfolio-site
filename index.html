@@ -6,7 +6,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/5462403d39.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
+<script>
+    $(document).ready(function(){
+        $(".screen-border").hide();
+        $(".portfolio-item").click(function(){
+            $(".screen-home).hide();
+            $(".screen-border).show();
+        })
+    })
+</script>
 <body>
   <div class="row">
     <div class="three columns">
