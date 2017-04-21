@@ -19,4 +19,9 @@ body {
   color: #00695C;
   border: 10px solid #ffc107;
 }
+
+.button {
+  color: white;
+  border: 1px solid white;
+}
   
