@@ -15,6 +15,10 @@
             $(".screen-home").hide();
             $(".screen-border").show();
         })
+        $(".close").click(function(){
+            $(".screen-home").show();
+            $(".screen-border").hide();
+        })
     })
 </script>
 <body>
@@ -71,7 +75,7 @@
         </div>
     </div>
      <div class="screen-border eight columns">
-         <p><i class="fa fa-times-circle-o" aria-hidden="true"></i></p>
+         <p class="close">><i class="fa fa-times-circle-o" aria-hidden="true"></i></p>
          <p></p>
     </div>
     <div class="one columns">
